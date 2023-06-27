@@ -392,7 +392,7 @@ get_libreswan() {
     bigecho "Downloading Libreswan..."
     cd /opt/src || exit 1
     swan_file="libreswan-$SWAN_VER.tar.gz"
-    swan_url1="https://github.com/libreswan/libreswan/archive/v$SWAN_VER.tar.gz"
+    swan_url1="https://gh.api.99988866.xyz/https://github.com/libreswan/libreswan/archive/v$SWAN_VER.tar.gz"
     swan_url2="https://download.libreswan.org/$swan_file"
     (
       set -x
